@@ -2,9 +2,8 @@
 
 // This is the base class for all Reactions.
 // There are arrays of inheriting Reactions on ReactionCollections.
-public abstract class Reaction:MonoBehaviour
+public abstract class Reaction : MonoBehaviour
 {
-
     public void Init()
     {
         SpecificInit();
@@ -12,14 +11,13 @@ public abstract class Reaction:MonoBehaviour
 
     protected virtual void SpecificInit()
     {
-        
+        //do something
     }
+
     public void React()
     {
         ImmediateReaction();
-
     }
 
     protected abstract void ImmediateReaction();
-
 }

@@ -3,13 +3,10 @@ using UnityEngine;
 
 public class GameObjectReaction : DelayedReaction
 {
-
-    public GameObject CloseObject;
-    public bool setActive;
-
-   
+    public GameObject go;
+    public bool activeState;
     protected override void ImmediateReaction()
     {
-        CloseObject.SetActive(setActive);
+        go.SetActive(activeState);
     }
 }

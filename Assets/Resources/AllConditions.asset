@@ -19,7 +19,7 @@ MonoBehaviour:
   - description: 2
     satisfied: 0
   - description: 3
-    satisfied: 0
+    satisfied: 1
   - description: 4
     satisfied: 1
   - description: 5
@@ -27,6 +27,6 @@ MonoBehaviour:
   - description: 6
     satisfied: 0
   - description: 7
-    satisfied: 1
+    satisfied: 0
   - description: 8
     satisfied: 0

@@ -28,6 +28,5 @@ public class Interactable : MonoBehaviour
 
         // If none of the reactions happened, use the default ReactionCollection.
         defaultReactionCollection.React ();
-
     }
 }

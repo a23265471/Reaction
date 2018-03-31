@@ -5,39 +5,33 @@
 // of an interaction.
 public class ReactionCollection : MonoBehaviour
 {
-    private Reaction[] reaction;
+    private Reaction[] reactions;
     private void Awake()
     {
-        reaction = GetComponents<Reaction>();
+        reactions = GetComponents<Reaction>();
     }
+
     private void Start()
     {
-        for(int i = 0; i < reaction.Length; i++)
+        for (int i = 0; i < reactions.Length; i++)
         {
-            DelayedReaction delaReaction = reaction[i] as DelayedReaction;
-            if (delaReaction != null)
-            {
-                delaReaction.Init();
-            }
+            DelayedReaction delayReaction = reactions[i] as DelayedReaction;
+            if (delayReaction != null)
+                delayReaction.Init();
             else
-                reaction[i].Init();
+                reactions[i].Init();
         }
-
     }
 
     public void React()
     {
-        for (int i = 0; i < reaction.Length; i++)
+        for (int i = 0; i < reactions.Length; i++)
         {
-            DelayedReaction delaReaction = reaction[i] as DelayedReaction;
-            if (delaReaction != null)
-            {
-                delaReaction.React();
-            }
+            DelayedReaction delayReaction = reactions[i] as DelayedReaction;
+            if (delayReaction != null)
+                delayReaction.React();
             else
-                reaction[i].React();
+                reactions[i].React();
         }
-
-
     }
 }

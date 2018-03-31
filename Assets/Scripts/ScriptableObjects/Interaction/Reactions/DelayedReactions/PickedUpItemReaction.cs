@@ -1,12 +1,9 @@
 ﻿using System;
 using UnityEngine;
-
 public class PickedUpItemReaction : DelayedReaction
 {
     public Item item;
     private Inventory inventory;
-
-
 
     protected override void SpecificInit()
     {

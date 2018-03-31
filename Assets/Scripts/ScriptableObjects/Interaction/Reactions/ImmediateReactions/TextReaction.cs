@@ -15,8 +15,8 @@ public class TextReaction : Reaction
     protected override void SpecificInit()
     {
         textManager = GameObject.FindObjectOfType<TextManager>();
-
     }
+
     protected override void ImmediateReaction()
     {
         textManager.DisplayMessage(message, textColor, delay);

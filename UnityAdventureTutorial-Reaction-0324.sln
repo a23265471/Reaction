@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityAdventureTutorial-Reaction-0324", "UnityAdventureTutorial-Reaction-0324.csproj", "{F8EE12F5-DE03-D93E-F5E9-3DFE5871414A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityAdventureTutorial-Reaction-0324.Editor", "UnityAdventureTutorial-Reaction-0324.Editor.csproj", "{5EE065B5-30EA-47CD-35D9-31D0187F7E22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8EE12F5-DE03-D93E-F5E9-3DFE5871414A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8EE12F5-DE03-D93E-F5E9-3DFE5871414A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8EE12F5-DE03-D93E-F5E9-3DFE5871414A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8EE12F5-DE03-D93E-F5E9-3DFE5871414A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EE065B5-30EA-47CD-35D9-31D0187F7E22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EE065B5-30EA-47CD-35D9-31D0187F7E22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EE065B5-30EA-47CD-35D9-31D0187F7E22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EE065B5-30EA-47CD-35D9-31D0187F7E22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -4,12 +4,11 @@
 // this is just a Reaction not a DelayedReaction.
 using System;
 using UnityEngine;
-
 public class SceneReaction : Reaction
 {
     public string sceneName;
     public string startingPointInLoadedScene;
-    public SaveData playerSavaData;
+    public SaveData playerSaveData;
     private SceneController sceneController;
 
     protected override void SpecificInit()
@@ -18,7 +17,7 @@ public class SceneReaction : Reaction
     }
     protected override void ImmediateReaction()
     {
-        playerSavaData.Save(PlayerMovement.startingPositionKey, startingPointInLoadedScene);
+        playerSaveData.Save(PlayerMovement.startingPositionKey, startingPointInLoadedScene);
         sceneController.FadeAndLoadScene(this);
     }
 }

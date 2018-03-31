@@ -22,7 +22,5 @@ public abstract class DelayedReaction : Reaction
     {
         yield return wait;
         ImmediateReaction();
-
     }
-
 }

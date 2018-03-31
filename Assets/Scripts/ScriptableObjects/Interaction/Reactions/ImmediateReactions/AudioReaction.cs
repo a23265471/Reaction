@@ -6,14 +6,12 @@ using UnityEngine;
 // rather than an DelayedReaction.
 public class AudioReaction : Reaction
 {
-    public AudioSource audiosource;
+    public AudioSource audioSource;
     public AudioClip audioClip;
     public float delay;
-
     protected override void ImmediateReaction()
     {
-        audiosource.clip = audioClip;
-        audiosource.PlayDelayed(delay);
-
+        audioSource.clip = audioClip;
+        audioSource.PlayDelayed(delay);
     }
 }

@@ -10,7 +10,6 @@ using System;
 
 public class ConditionReaction : Reaction
 {
-
     public Condition.ConditionName condition;
     public bool satisfied;
     protected override void ImmediateReaction()
